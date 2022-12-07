@@ -1,0 +1,366 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --fonte-destaque: 'Bebas Neue', cursive;
+  --cor01: rgba(73, 73, 73, 0.151);
+}
+
+* {
+  padding: 0px;
+  margin: auto;
+  text-align: center; 
+}
+
+
+body {
+  height: 100vh;
+  background: url(Imagens/Fundo.png) center no-repeat fixed;
+  background-size: cover;
+}
+header {
+  max-width: 550px;
+  margin-top: 20px;
+  background-color: var(--cor01);
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+
+}
+
+header > h1 {
+  font-size: 3em;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.048);
+}
+
+nav {
+  max-width: 550px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--cor01);
+  border-radius: 30px;
+  
+}
+
+nav > a {
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+nav > a:hover {
+  background-color: var(--cor01);
+  color: white;
+  transition-duration: 0.2s;
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  
+}
+
+body {
+  padding: 10px;
+}
+
+body .sobremim {
+  max-width: 550px;
+  margin-top: 20px;
+  columns: 2;
+  background-color: var(--cor01);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+body .sobremim > img {
+  border-radius: 50%;
+  padding: 10px;
+  max-width: 250px;
+  box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.048);
+  margin-right:  30px;
+  border: 10px solid transparent;
+}
+
+body .sobremim img:hover {
+  border: 10px solid #2d2e2e;
+  border-radius: 50%;
+  transform: scale(1.1);
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+body .sobremim h2 {
+  font-size: 2em;
+  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.048);
+  color: rgb(37, 37, 37);
+  padding: 10px;
+  margin-left: 30px;
+}
+
+body .sobremim p {
+  text-align: center;
+  font-size: 1.1em;
+  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.048);
+  min-width: 50px;
+  padding: 10px;
+  margin-left: 30px;
+  
+}
+
+
+
+body.sobremim a:hover {
+  transition-duration: 0.5s;
+  background-color: var(--cor01);
+  color: white;
+}
+
+body .redes {
+  background-color: var(--cor01);
+  max-width: 550px;
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+body .redes h2 {
+  font-size: 2em;
+}
+
+
+body section.redes img {
+border-radius: 50%;
+min-width: 50px;
+max-width: 50px;
+border: 20px;
+padding: 15px;
+margin: 10px;  
+align-items: center;
+border-radius: 50%;
+}
+
+body section.redes img:hover {
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+body .links {
+  background-color: var(--cor01);
+  max-width: 550px;
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+body .links h1 {
+  font-size: 2em;
+}
+
+body .links p, a {
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+  font-size: 1.1em;
+    
+}
+
+body .links a:hover {
+  transition-duration: 0.5s;
+  background-color: var(--cor01);
+  color:white;
+  
+}
+
+footer {
+  max-width: 550px;
+  margin-top: 20px;
+  columns: 3;
+  background-color: var(--cor01);
+  border-radius: 30px 30px 0px 0px;
+  padding: 10px;
+}
+
+footer img {
+  max-width: 30px;
+  margin-top: px;
+
+}
+
+footer h2 {
+  padding: 10px;
+}
+
+footer img p  {
+  margin-bottom: 15px;
+}
+
+footer ul {
+  padding: 5px;
+  list-style-position: inside;
+  list-style-type: circle;
+  text-align: justify;
+  
+}
+footer li {
+  padding: 5px;
+  text-align: justify;
+ 
+}
+
+footer li a:hover {
+  transition-duration: 0.5s;
+  color:white;
+}
+
+p.creditos {
+  max-width: 550px;
+  background-color: var(--cor01);
+  border-radius: 0px 0px 30px 30px;
+  padding: 10px;
+}
+/* pagina sobre mim */
+
+section.sobre {
+  margin-top: 10px;
+  max-width: 550px;
+  background-color: var(--cor01);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+section.sobre h1 {
+  font-size: 2em;
+  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.048);
+  color: rgb(37, 37, 37);
+  padding: 10px;
+  
+}
+
+section.sobre p {
+  text-align: center;
+  font-size: 1.1em;
+  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.048);
+  min-width: 50px;
+  padding: 10px;
+  
+}
+
+section.sobre a {
+  text-align: center;
+}
+
+section.sobre img {
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+section.sobre img:hover {
+  border: 10px solid #2d2e2e;
+  border-radius: 50%;
+  transform: scale(1);
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+section.skills {
+  margin-top: 10px;
+  max-width: 550px;
+  background-color: var(--cor01);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+section.skills h1 {
+  font-size: 2em;
+  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.048);
+  color: rgb(37, 37, 37);
+  padding: 10px;
+}
+
+section.skills div {
+  display: inline;
+  margin: auto;
+  min-width: 100px;
+  max-width: 800px;
+  min-height: 300px;
+  max-height: 800px;
+  columns: 3, 2;
+}
+section.skills div  a img {
+  max-width: 200px;
+  border-radius: 10px;
+  
+}
+
+section.skills a > img:hover {
+  transition-duration: 0.4s;
+  transform: scale(1.2);
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+/* lojas virtuais */
+
+article.textos {
+  margin-top: 10px;
+  max-width: 550px;
+  background-color: var(--cor01);
+  border-radius: 30px;
+  padding: 10px;
+  columns: 2;
+}
+
+article.textos h1 {
+  display: inline-flexbox ;
+  float: inline-start;
+  font-size: 1.5em;
+  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.048);
+  color: rgb(37, 37, 37);
+  margin-top: 10px;
+  padding: 10px;
+ }
+
+ article.textos p {
+  margin-top: 20px;
+ }
+
+article.textos img {
+  max-width: 200px;
+  box-shadow:  2px 5px 2px rgba(0, 0, 0, 0.048);;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+section.lojas {
+  margin-top: 10px;
+  max-width: 550px;
+  background-color: var(--cor01);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+section.lojas div {
+  display: inline;
+  margin: auto;
+  min-width: 100px;
+  max-width: 800px;
+  min-height: 300px;
+  max-height: 800px;
+  columns: 3, 2;
+}
+section.lojas h2 {
+  font-size: 1.5em;
+  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.048);
+  color: rgb(37, 37, 37);
+  padding: 10px;
+}
+section.lojas img {
+  max-width: 150px;
+  border-radius: 10px;
+  columns: 3, 2;
+}
+
+section.lojas img:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.2);
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
